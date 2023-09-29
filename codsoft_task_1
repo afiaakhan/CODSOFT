@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Afia's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="http://127.0.0.1:5500/portfolio.html" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="decor">Home</a>
+            <a href="#AboutMe" class="decor">About</a>
+            <a href="#Services" class="decor">Skills</a>
+            <a href="#Projects" class="decor">Projects</a>
+            <a href="#Contact" class="decor">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="info">
+            <div class="inline">
+                <h1 class="hdecor">Hi, I'm </h1>
+                <h1 class="hcolor">Afia!</h1>
+            </div>
+            <h2 id="element"><span>Front End Developer</span></h2>
+
+            <a href="WhatsApp.html" class="button">Hire me</a>
+            <a href="Profile.pdf" class="button2">Download CV</a>
+        </div>
+        <div class="homeImg">
+            <div class="myImg">
+                <img class="img-home" src="myimg.png">
+            </div>
+        </div>
+    </section>
+    <div class="break">
+    </div>
+    <!-- About Me -->
+    <section id="AboutMe">
+        <div>
+            <h1 class="aboutdecor">About</h1>
+            <p class="para">Greetings! I'm a versatile creative based in Karachi, Pakistan, specializing in graphic
+                design and front-end web development. With a keen eye for aesthetics and a strong command of HTML, CSS,
+                and JavaScript, I bring ideas to life through engaging visual designs and seamless user experiences.With
+                a palette of HTML, CSS, and JavaScript at my fingertips, I embark on a journey to craft visually
+                appealing and functionally seamless websites. From envisioning eye-catching layouts to breathing life
+                into interactive elements, I take pride in curating user-centric designs that engage and delight.
+                Whether it's crafting compelling visuals or translating them into interactive digital solutions, I
+                thrive on merging innovation with functionality. Let's collaborate to transform your ideas into
+                captivating realities. </p>
+        </div>
+    </section>
+    <section>
+        <div class="socialmedia">
+            <div class="abouticon"><i class="fa-brands fa-html5"> </i> HTML </div>
+            <div class="abouticon"><i class="fa-brands fa-css3-alt"></i>CSS</div>
+            <div class="abouticon"><i class="fa-brands fa-js"></i>JS</div>
+            <div class="abouticon"><i class="fa-brands fa-java"></i>Java</div>
+        </div>
+        <br>
+    </section>
+    <div class="break2">
+    </div>
+    <!-- My Services -->
+    <section id="Services">
+        <div class="MyServices">
+            <h1>Skills</h1>
+            <div class="ServicesBox">
+                <div class="Design">
+                    <i class="fa-solid fa-code fa-fade" style="color: #ffffff;"></i>
+                    <h2>Front-End Developer</h2>
+                    <p>A budding front-end developer with a strong foundation in HTML,CSS and JavaScript.I'm passionate
+                        about crafting user-friendly web experiences and excited to dive into the world of web
+                        development.
+                    </p>
+                </div>
+                <div class="Design">
+                    <i class="fa-solid fa-paintbrush fa-fade" style="color: #ffffff;"></i>
+                    <h2>Graphic Designer</h2>
+                    <p>A passionate graphic designer with one year of hands-on experience in the world of visual
+                        creativity. I thrive on transforming ideas into compelling visual narratives and have a keen eye
+                        for detail, color, and composition.</p>
+                </div>
+                <div class="Design">
+                    <i class="fa-solid fa-laptop fa-fade" style="color: #ffffff;"></i>
+                    <h2>Social Media Marketer</h2>
+                    <p>A dedicated social media marketer. With a passion for digital engagement and storytelling, I
+                        specialize in leveraging social platforms to build brand presence and connect with audiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="break2">
+    </div>
+    <!-- My Projects -->
+    <section id="Projects">
+        <div>
+            <h1 class="projheading">Projects</h1>
+            <div class="myproj">
+                <div>
+                    <h2 class="proj12">Calculator</h2>
+
+                    <img class="img1" src="calculator_1011812 (1).png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo reprehenderit cupiditate molestias
+                        ipsam dicta perferendis dignissimos esse totam eum ipsum, saepe iste commodi quisquam!</p>
+                    <a href="https://www.google.com/" class="seemore">See More</a>
+                    <br>
+                </div>
+                <div>
+                    <h2 class="proj12">To-Do-List</h2>
+                    <img class="img2" src="tasks_4859882.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo reprehenderit cupiditate molestias
+                        ipsam dicta perferendis dignissimos esse totam eum ipsum, saepe iste commodi quisquam!</p>
+                    <a href="https://www.google.com/" class="seemore">See More</a>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="break">
+    </div>
+    <!-- Contact Me -->
+    <section id="Contact">
+        <h1 class="contactheading">Contact</h1>
+        <form action="" name="Contact">
+            <input type="text" id="yourname" placeholder="Your name" required>
+            <input type="text" id="youremail" placeholder="Your email" required>
+            <input type="text" id="yourphone" placeholder="Your contact" required>
+            <textarea id="yourmsg" placeholder="Tell us about your project" rows="5"></textarea>
+            <button class="button3">Submit</button>
+        </form>
+
+        <div class="contactbox">
+            <a href="https://github.com/" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/_afiaakhan/" class="icon"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://wa.me/+921234567890" class="icon"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/afia.khan.98031506" class="icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/afia-khan-a85844250/" class="icon"><i
+                    class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="break"></div>
+    </section>
+    <footer>
+        <div id="footer">
+            <div>
+                <h2>Afia</h2>
+                <div class="footerdecor">
+                    <p>Thankyou for viewing my portfolio! </p>
+                    <p>I'm currently open to work.</p>
+                </div>
+            </div>
+            <div>
+                <div class="footerwork">
+                    <h3>Contact <i id="phone" class="fa-solid fa-phone-flip" style="color: #ffffff;"></i></h3>
+                    <div class="contactmail">
+                        <p>+921234567890 </p>
+                        <p>afiakhan166@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <div class="rights">Copyright<div class="right"><i class="fa-regular fa-copyright"
+                        style="color: #a3a3a3;"></i></div>All rights reserved 2023.</div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['(Front End Web Developer)', '(Graphic Designer)', '(Social Media Marketer)'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
