@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <div id="todolist">
+        <div class="mainBox">
+    <div class="background">
+        <div class="image">
+            <img src="steps_2192571.png">
+        </div>
+        <h2>To-Do-List </h2>
+    </div>
+    <div class="listbox">
+    <div class="box">
+        <input type="text" id="enter" placeholder="Add your text...">
+        <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="tasks">
+        <!-- <li class="check">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+    </ul>
+</div>
+</div>
+</div>
+<script src="todolist.js"></script>
+</body>
+  const ipBox = document.getElementById("enter");
+const Alltasks = document.getElementById( "tasks");
+
+
+function addTask(){
+    if(ipBox.value === ''){
+        alert("Please write something!");
+    }
+    else{
+        let li = document.createElement("li");
+        li.innerHTML = ipBox.value;
+        Alltasks.appendChild(li);
+        let span = document.createElement("span");
+        span.innerHTML = "\u00d7";
+        li.appendChild(span);
+    }
+    ipBox.value = "";
+    saveData();
+}
+
+Alltasks.addEventListener("click" , function(e){
+    if(e.target.tagName === "LI"){
+        e.target.classList.toggle("check");
+        saveData();
+    }
+    else if(e.target.tagName === "SPAN"){
+        e.target.parentElement.remove();
+        saveData();
+    }
+} ,false);
+
+function saveData(){
+    localStorage.setItem("data", AllTasks.innerHTMl);
+}
+
+function showdata(){
+    Alltasks.innerHTML = localStorage.getItem("data");
+}
+showdata();
+</html>
+
+  
